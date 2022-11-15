@@ -1,0 +1,9 @@
+### ALL PRODUCTS
+GET http://localhost:8000/api/products
+
+### CREATE PRODUCT
+POST http://localhost:8000/api/products
+{
+    "title": "title",
+    "image": "img"
+}
